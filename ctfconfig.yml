@@ -1,0 +1,5 @@
+ctfFramework: CTFd 2.x
+juiceShopUrl: https://summercamp-websec-shop-0.herokuapp.com
+ctfKey: https://raw.githubusercontent.com/senacor/juice-shop/master/ctf.key
+insertHints: paid
+insertHintUrls: paid
