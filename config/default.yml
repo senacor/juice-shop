@@ -2,16 +2,16 @@ server:
   port: 3000
 application:
   domain: juice-sh.op
-  name: 'Senacor Juice Shop'
-  logo: JuiceShopCTF_Logo.png
-  favicon: favicon_ctf.ico
+  name: 'OWASP Juice Shop'
+  logo: JuiceShop_Logo.png
+  favicon: favicon_js.ico
   numberOfRandomFakeUsers: 0
   showChallengeSolvedNotifications: true
-  showChallengeHints: false
-  showVersionNumber: false
-  showHackingInstructor: false
+  showChallengeHints: true
+  showVersionNumber: true
+  showHackingInstructor: true
   theme: bluegrey-lightgreen # Options: bluegrey-lightgreen blue-lightblue deeppurple-amber indigo-pink pink-bluegrey purple-green deeporange-indigo
-  gitHubRibbon: false
+  gitHubRibbon: true
   hideWelcome: false
   twitterUrl: 'https://twitter.com/owasp_juiceshop'
   facebookUrl: 'https://www.facebook.com/owasp.juiceshop'
@@ -240,6 +240,6 @@ products:
     price: 19.99
     image: coaster.png
 ctf:
-  showFlagsInNotifications: true
+  showFlagsInNotifications: false
   showCountryDetailsInNotifications: none # Options: none  name  flag  both
   countryMapping: ~
