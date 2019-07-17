@@ -2,7 +2,9 @@ application:
   name: 'Senacor Juice Shop'
   logo: JuiceShopCTF_Logo.png
   favicon: favicon_ctf.ico
-  showChallengeHints: true
+  showChallengeHints: false
   showVersionNumber: false
   showHackingInstructor: false
   gitHubRibbon: false
+ctf:
+  showFlagsInNotifications: true
